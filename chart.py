@@ -1,8 +1,10 @@
 import matplotlib.pyplot as mpl
 import pandas as pd
+import os
 
 # read data
-file_path = r'C:\Users\Ssername\path\to\datafile\data.csv'
+username = os.getlogin()
+file_path = r'C:\Users\{username}\path\to\datafile\data.csv'
 data = pd.read_csv(file_path)
 
 topics = data['topic']
