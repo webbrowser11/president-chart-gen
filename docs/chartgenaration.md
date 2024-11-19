@@ -30,8 +30,8 @@ mpl.ylabel("label for second bit of chart: num", fontsize=12)
 mpl.xticks(rotation=45, fontsize=10)
 mpl.tight_layout()
 
-open_name = 'chart.png' # you can cutomize the
-mpl.savefig(open_name)
-mpl.show()
+open_name = 'chart.png' # you can cutomize the name here if you want to, and it does save as this name
+mpl.savefig(open_name) # saves to the scripts runnign directory
+mpl.show() # previews the chart
 ```
 you're all set! now just run chart.py.
