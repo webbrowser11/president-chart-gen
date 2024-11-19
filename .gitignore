@@ -1,6 +1,9 @@
+# ignore python cache files and stuff
 __pycache__/
 *.pyc
 *.pyo
 
+# ignore other files
 *.csv
-data.csv
+*.md
+LICENSE
