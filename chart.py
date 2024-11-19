@@ -3,8 +3,8 @@ import pandas as pd
 import os
 
 # read data
-username = os.getlogin()
-file_path = rf'C:\Users\{username}\path\to\datafile\data.csv'
+current_path = os.getcwd()
+file_path = os.path.join(current_path, 'data.csv')
 data = pd.read_csv(file_path)
 
 topics = data['topic']
