@@ -4,6 +4,5 @@ __pycache__/
 *.pyo
 
 # ignore other files
-*.csv
 *.md
 LICENSE
