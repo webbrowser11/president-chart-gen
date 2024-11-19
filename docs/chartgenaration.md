@@ -8,7 +8,7 @@ word,num  -  mathing the amount of spaces you put at the top
 ```
 # now cutomize the generator
 go to chart.py and change it to match your csv data file:
-```
+```python
 import matplotlib.pyplot as mpl
 import pandas as pd
 
@@ -23,14 +23,14 @@ data.sort_values(by='num', ascending=False)
 
 # make bar chart
 mpl.figure(figsize=(10, 6))
-mpl.bar(topic, num, color='skyblue')
+mpl.bar(topic, num, color='skyblue') # customize the color if you wish to.
 mpl.title("chart title", fontsize=16)
 mpl.xlabel("label for first bit of chart: topic", fontsize=12)
 mpl.ylabel("label for second bit of chart: num", fontsize=12)
 mpl.xticks(rotation=45, fontsize=10)
 mpl.tight_layout()
 
-open_name = 'chart.png'
+open_name = 'chart.png' # you can cutomize the
 mpl.savefig(open_name)
 mpl.show()
 ```
