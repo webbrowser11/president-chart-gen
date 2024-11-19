@@ -13,7 +13,7 @@ import matplotlib.pyplot as mpl
 import pandas as pd
 
 # read data
-file_path = r'\path\to\script\data.csv'
+file_path = r'\path\to\datafile\data.csv'
 data = pd.read_csv(file_path)
 
 topic = data['topic'] # made to match the csv file
