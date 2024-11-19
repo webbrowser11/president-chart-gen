@@ -1,3 +1,4 @@
 # documentation
-+ [running doc](https://github.com/webbrowser11/chart-gen/blob/main/docs/running.md)
-+ [requirements doc](https://github.com/webbrowser11/chart-gen/blob/main/docs/requirements.md)
++ [cloning doc](https://github.com/webbrowser11/chart-gen/blob/main/docs/clone.md) (i would recremend you read this first)
++ [requirements doc](https://github.com/webbrowser11/chart-gen/blob/main/docs/requirements.md) (this next)
++ [running doc](https://github.com/webbrowser11/chart-gen/blob/main/docs/running.md) (this last)
