@@ -5,4 +5,4 @@ president-chart-gen
 ```
 then run `python chart.py` or `python -i chart.py`
 ## done
-now bave in the glory of the chart
+now bathe in the glory of the chart
