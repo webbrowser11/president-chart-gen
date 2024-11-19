@@ -2,7 +2,7 @@ import matplotlib.pyplot as mpl
 import pandas as pd
 
 # read data
-file_path = r'C:\Users\Graham\Documents\Python Scripts\Self-projects\Big projects\data.csv'
+file_path = r'C:\Users\Ssername\path\to\datafile\data.csv'
 data = pd.read_csv(file_path)
 
 topics = data['topic']
