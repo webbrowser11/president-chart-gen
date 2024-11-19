@@ -4,7 +4,7 @@ import os
 
 # read data
 username = os.getlogin()
-file_path = r'C:\Users\{username}\path\to\datafile\data.csv'
+file_path = rf'C:\Users\{username}\path\to\datafile\data.csv'
 data = pd.read_csv(file_path)
 
 topics = data['topic']
