@@ -1,5 +1,5 @@
 # running
-open your devices cmd and cd to the folder you cloned the repo to it should be named
+open your devices cmd and cd to the folder you cloned the repo to. the repo folder should be named
 ```
 president-chart-gen
 ```
